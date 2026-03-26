@@ -23,7 +23,6 @@ object frmSplash: TfrmSplash
     Padding.Top = 10
     ParentBackground = False
     TabOrder = 0
-    Visible = False
     object imgDll: TImage
       Left = 239
       Top = 179

@@ -44,7 +44,7 @@ procedure TfrmSplash.Timer1Timer(Sender: TObject);
 begin
    if ProgressBar1.Position <= 100 then
    begin
-     ProgressBar1.StepIt;
+     ProgressBar1.Position := ProgressBar1.Position + 1;
      case ProgressBar1.Position of
        10 : AtualizarStatus('Carregando depedências...', imgDll);
        25 : AtualizarStatus('Conectando ao banco de dados...', imgBancoDeDados);
